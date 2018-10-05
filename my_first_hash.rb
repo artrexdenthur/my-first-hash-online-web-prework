@@ -16,7 +16,13 @@ def shipping_manifest()
   }
 end
 
-def retrieval(manifest = shipping_manifest)
+def retrieval
+  shipping_manifest = {
+                  "whale bone corsets" => 5, 
+                  "porcelain vases" => 2, 
+                  "oil paintings" => 3
+                 }
+
   # operates on shipping_manifest hash to return the value of the
   # 'oil paintings' key
   manifest['oil paintings']
