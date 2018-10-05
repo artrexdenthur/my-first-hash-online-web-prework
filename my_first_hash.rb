@@ -26,7 +26,7 @@ def retrieval
   # operates on shipping_manifest hash to return the value of the
   # 'oil paintings' key
   
-  manifest['oil paintings']
+  shipping_manifest['oil paintings']
 end
 
 def adding(manifest = shipping_manifest)
