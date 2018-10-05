@@ -36,9 +36,9 @@ def adding
                   "oil paintings" => 3
                  }
   # operates on the shipping_manifest hash to add a key/value pair
-  manifest['muskets'] = 2
-  manifest['gun powder'] = 4
-  manifest
+  shipping_manifest['muskets'] = 2
+  shipping_manifest['gun powder'] = 4
+  shipping_manifest
 end
 
 def new()
